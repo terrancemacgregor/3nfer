@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/terrancemacgregor/3nfer/compare/v1.0.1...v1.0.2) (2026-06-11)
+
+
+### Bug Fixes
+
+* add publishConfig.access public to package.json ([38ad1b9](https://github.com/terrancemacgregor/3nfer/commit/38ad1b98a39b67fa486aa8a32db5fd71010d374f))
+
 ## [1.0.1](https://github.com/terrancemacgregor/3nfer/compare/v1.0.0...v1.0.1) (2026-06-11)
 
 
