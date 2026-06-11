@@ -1,0 +1,53 @@
+{
+  "name": "3nfer",
+  "version": "0.1.0",
+  "description": "SQLite schema analyzer — normalization checks, structural health, and relationship validation",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "3nfer": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sqlite",
+    "schema",
+    "normalization",
+    "database",
+    "lint",
+    "3nf",
+    "normal-form",
+    "analysis",
+    "cli"
+  ],
+  "author": "Terrance MacGregor <terrance.macgregor@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrancemacgregor/3nfer"
+  },
+  "homepage": "https://3nfer.org",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.9.3",
+    "better-sqlite3": "^12.10.0",
+    "eslint": "^10.4.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8"
+  }
+}

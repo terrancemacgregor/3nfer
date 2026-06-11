@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"5bed56c666a77570","type":"group","x":-760,"y":-840,"width":760,"height":100,"label":"Analyzer ABC"},
+		{"id":"111f9ae1e26dbec4","type":"group","x":-760,"y":-680,"width":760,"height":100,"label":"Analyzer ABC"},
+		{"id":"4317a42a283caf49","type":"group","x":-760,"y":-540,"width":760,"height":100,"label":"Analyzer ABC"},
+		{"id":"0dc5f53937e05f64","x":-550,"y":-650,"width":250,"height":60,"type":"text","text":"I want you to tell a long story. I got a lot of work to do. I want you to tell a long story in make-up characters and people and different things, OK? Yeah, don't ask me more questions. I just want you to keep talking, okay? So don't interrupt me. I mean, don't interrupt yourself, just keep going.  [ sounds like a    What did I tell you?"},
+		{"id":"2426ede8631310f7","type":"text","text":"### Input JSON","x":-740,"y":-820,"width":200,"height":50,"color":"3"},
+		{"id":"8d6c03c32c44022f","type":"text","text":"### Analysis Function","x":-500,"y":-820,"width":260,"height":50,"color":"3"},
+		{"id":"d15c5f1d18f31b7f","type":"text","text":"### Result (json)","x":-190,"y":-820,"width":180,"height":50,"color":"3"},
+		{"id":"ddl","type":"text","text":"## DDL Input","x":-1260,"y":-832,"width":220,"height":75,"color":"4"},
+		{"id":"14bd1ec43e541615","type":"text","text":"### Analysis Function","x":-500,"y":-660,"width":260,"height":50,"color":"3"},
+		{"id":"ae8999cdfed73281","type":"text","text":"### Result (json)","x":-190,"y":-660,"width":180,"height":50,"color":"3"},
+		{"id":"e49cb3dca13d3f58","type":"text","text":"### Input JSON","x":-740,"y":-660,"width":200,"height":50,"color":"3"},
+		{"id":"b94213b01f1830d6","type":"text","text":"### Analysis Function","x":-500,"y":-520,"width":260,"height":50,"color":"3"},
+		{"id":"286849800872f03b","type":"text","text":"### Result (json)","x":-190,"y":-520,"width":180,"height":50,"color":"3"},
+		{"id":"bda7828df5eee2d9","type":"text","text":"### Input JSON","x":-740,"y":-520,"width":200,"height":50,"color":"3"},
+		{"id":"bf104f5884f27ea0","type":"text","text":"## DDL Parser","x":-1080,"y":-672,"width":180,"height":75,"color":"6"},
+		{"id":"report","type":"text","text":"## Final Report (json)","x":80,"y":-667,"width":220,"height":70,"color":"1"}
+	],
+	"edges":[
+		{"id":"da43cb89868e0a34","fromNode":"2426ede8631310f7","fromSide":"right","toNode":"8d6c03c32c44022f","toSide":"left"},
+		{"id":"7058e45ba5b5baf1","fromNode":"8d6c03c32c44022f","fromSide":"right","toNode":"d15c5f1d18f31b7f","toSide":"left"},
+		{"id":"f52047d14c79104a","fromNode":"ddl","fromSide":"bottom","toNode":"bf104f5884f27ea0","toSide":"left","label":"string"},
+		{"id":"28ae91aed3304430","fromNode":"e49cb3dca13d3f58","fromSide":"right","toNode":"14bd1ec43e541615","toSide":"left"},
+		{"id":"792c445664e71e67","fromNode":"14bd1ec43e541615","fromSide":"right","toNode":"ae8999cdfed73281","toSide":"left"},
+		{"id":"02ae4b0301756f76","fromNode":"bda7828df5eee2d9","fromSide":"right","toNode":"b94213b01f1830d6","toSide":"left"},
+		{"id":"474dd2fe73d37ec8","fromNode":"b94213b01f1830d6","fromSide":"right","toNode":"286849800872f03b","toSide":"left"},
+		{"id":"2f275632201290d8","fromNode":"bf104f5884f27ea0","fromSide":"right","toNode":"111f9ae1e26dbec4","toSide":"left","label":"json"}
+	]
+}
