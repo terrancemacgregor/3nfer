@@ -1,6 +1,6 @@
 {
   "name": "3nfer",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "SQLite schema analyzer — normalization checks, structural health, and relationship validation",
   "type": "module",
   "main": "dist/index.js",
@@ -42,10 +42,17 @@
     "LICENSE"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.8",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^25.9.3",
     "better-sqlite3": "^12.10.0",
     "eslint": "^10.4.1",
+    "semantic-release": "^25.0.5",
     "tsup": "^8.5.1",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8"
