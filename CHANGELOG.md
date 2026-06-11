@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/terrancemacgregor/3nfer/compare/v1.0.0...v1.0.1) (2026-06-11)
+
+
+### Bug Fixes
+
+* set npm publish access to public for scoped package ([7130936](https://github.com/terrancemacgregor/3nfer/commit/71309367359b3cf404118ccf920535f4bf20c368))
+
 # 1.0.0 (2026-06-11)
 
 
