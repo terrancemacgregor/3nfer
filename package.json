@@ -1,5 +1,5 @@
 {
-  "name": "3nfer",
+  "name": "@frodo-npmings/3nfer",
   "version": "0.0.0",
   "description": "SQLite schema analyzer — normalization checks, structural health, and relationship validation",
   "type": "module",
